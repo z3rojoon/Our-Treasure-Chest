@@ -1,9 +1,6 @@
 <!doctype html>
 <html>
 <head>
-<style>
-body {background-color: #ffe6ff}
-</style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115326896-1"></script>
 <script>
@@ -16,17 +13,46 @@ body {background-color: #ffe6ff}
 
   <title>우리 벌써 사귄지</title>
   <meta charset:"utf-8">
+  <style>
+   body {background-color: #ffe6ff}
+   body {
+     margin:0;
+   }
+   a {
+     color:hotpink;
+     text-decoration: none;
+   }
+   h1 {
+     font-size: 45px; text-align: center;
+     border-bottom:1px solid black;
+     margin:0;
+     padding:20px;
+   }
+   ol {
+     border-right:1px solid black;
+     width:60px;
+     margin:0; padding:30px;
+   }
+   #grid {
+     display: grid;
+     grid-template-columns: 150px 1fr;
+   }
+  </style>
 </head>
 <body>
   <h1><a href="index.html" title="이거 말고 Home을 누르는게 좋을것이다! 어차피 똑같은데로 가거든!">우리들의 보물창고</a></h1>
+<div id="grid">
   <ol>
     <li><a href="home.html" title="처음 페이지로">Home</a></li>
-    <li><a href="days.html" title="우리가 얼마나 사겼는지 궁금해? 그럼 눌러봐!">Days</a></li>
+    <li><a href="days.html" title="우리가 얼마나 사겼는지 궁금해? 그럼 눌러봐!" style="color:red">Days</a></li>
     <li><a href="diary.html" title="일기장">Diary</a></li>
   </ol>
+  <div>
   <h2>우리 벌써 사귄지</h2>
   <img src="Love(2).jpg" width="500">
-  <p><strong>655일!</strong><br>(자정이 되면 자동으로 숫자가 바뀌는 설정을 하고 싶은데 아직 그런거 어떻게 하는지 몰라서 매일마다 바꾸러 와야한다..!)</p>
+  <p><strong>656일!</strong><br>(자정이 되면 자동으로 숫자가 바뀌는 설정을 하고 싶은데 아직 그런거 어떻게 하는지 몰라서 매일마다 바꾸러 와야한다..!)</p>
+  </div>
+</div>
   <p>
 <div id="disqus_thread"></div>
 <script>
